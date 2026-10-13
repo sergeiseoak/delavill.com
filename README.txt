@@ -1,0 +1,1 @@
+Cloudflare Pages static deployment for delavill.com. Publish directory: root of archive. Set custom domain delavill.com; enable Always Use HTTPS and www to apex redirect in Cloudflare dashboard. /go/ redirects to affiliate registration. No actual demo game engine is included; static game illustration is not interactive. Verify live redirects after deployment.
