@@ -7,3 +7,11 @@
 /* SEO v2: navigable breadcrumbs and responsive layout */
 .breadcrumbs{font-size:.88rem;padding-top:16px;padding-bottom:6px;color:#50634d}.breadcrumbs a{color:#285d35;text-decoration:underline;text-underline-offset:3px}.breadcrumbs [aria-current]{font-weight:700;color:#193c27}
 @media(max-width:700px){.breadcrumbs{padding-top:12px;padding-bottom:0}}
+
+/* v3: Prevent responsive images from stretching when HTML width/height are set. */
+img{height:auto}
+.side-card img{display:block;width:100%;height:auto;aspect-ratio:1 / 1;object-fit:cover;object-position:center;border-radius:13px}
+.side-card{min-width:0;overflow:hidden}
+.side-card .btn{max-width:100%;white-space:normal;text-align:center}
+@media(max-width:900px){.side-card img{max-height:360px}}
+@media(max-width:600px){.side-card img{max-height:none}}
